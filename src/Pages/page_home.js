@@ -1,4 +1,8 @@
 import Figure from '../Images/profile.jpeg';
+import GithubIcon from '../Images/github.png';
+import GmailIcon from '../Images/gmail.png';
+import LinkedinIcon from '../Images/linkedin.png';
+import ConvidaIcon from '../Images/convida.png';
 import './style.css';
 
 function PageHome() {
@@ -54,19 +58,54 @@ function PageHome() {
             <br></br>
             <h3>Projects</h3>
             <hr></hr>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut aliquam purus sit amet luctus. Vitae auctor eu augue ut lectus arcu bibendum at. Facilisi cras fermentum odio eu feugiat pretium nibh. At erat pellentesque adipiscing commodo elit at imperdiet dui. Non sodales neque sodales ut etiam sit amet. Vitae et leo duis ut. Ultricies leo integer malesuada nunc vel risus commodo viverra maecenas. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Purus ut faucibus pulvinar elementum. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Nunc sed blandit libero volutpat sed.
-            </p>
             <br></br>
-            <h3>Contacts</h3>
-            <hr></hr>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut aliquam purus sit amet luctus. Vitae auctor eu augue ut lectus arcu bibendum at. Facilisi cras fermentum odio eu feugiat pretium nibh. At erat pellentesque adipiscing commodo elit at imperdiet dui. Non sodales neque sodales ut etiam sit amet. Vitae et leo duis ut. Ultricies leo integer malesuada nunc vel risus commodo viverra maecenas. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Purus ut faucibus pulvinar elementum. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Nunc sed blandit libero volutpat sed.
-            </p>
-        </div>
-
-        <div>
-            <br></br>
+            <div className="projects-card">
+                <h4>Plataforma RedeConvida</h4>
+                <hr></hr>   
+                <br></br>            
+                <a href="https://redeconvidateleatendimento.netlify.app/">
+                    <img src={ConvidaIcon} alt="Card Icon" className="icon-resize"></img>
+                </a> 
+                <p>
+                    Rede Convida is a health care platform to serve those who are at risk. The calls will be in host institutions to offer help in times of Covid-19, as we want to promote health for people with inaccessibility. As coordinator of the project's Front-end team, we had the challenge of implementing an intuitive UI that provides a fluid user experience. And with all the integrations and features required for the platform to fully function.
+                </p>                
+            </div>
+            <br></br>     
+            <div className="projects-card">
+                <h4>Plataforma RedeConvida</h4>
+                <hr></hr>   
+                <br></br>            
+                <a href="https://redeconvidateleatendimento.netlify.app/">
+                    <img src={ConvidaIcon} alt="Card Icon" className="icon-resize"></img>
+                </a>
+                <p>
+                    Rede Convida is a health care platform to serve those who are at risk. The calls will be in host institutions to offer help in times of Covid-19, as we want to promote health for people with inaccessibility. As coordinator of the project's Front-end team, we had the challenge of implementing an intuitive UI that provides a fluid user experience. And with all the integrations and features required for the platform to fully function.
+                </p>                
+            </div>
+            <br></br> 
+            <div className="projects-card">
+                <h4>Plataforma RedeConvida</h4>
+                <hr></hr>   
+                <br></br>  
+                <a href="https://redeconvidateleatendimento.netlify.app/">
+                    <img src={ConvidaIcon} alt="Card Icon" className="icon-resize"></img>
+                </a>                           
+                <p>
+                    Rede Convida is a health care platform to serve those who are at risk. The calls will be in host institutions to offer help in times of Covid-19, as we want to promote health for people with inaccessibility. As coordinator of the project's Front-end team, we had the challenge of implementing an intuitive UI that provides a fluid user experience. And with all the integrations and features required for the platform to fully function.
+                </p>                
+            </div>
+            <br></br>        
+            <div className="icons">            
+                <a href="mateuspedrosa38@gmail.com">
+                    <img src={GmailIcon} alt="Card Icon"></img>      
+                </a> 
+                <a href="https://br.linkedin.com/in/mateus-leite-1021a716b">
+                    <img src={LinkedinIcon} alt="Card Icon"></img>  
+                </a>         
+                <a href="https://github.com/lp-mateus">
+                    <img src={GithubIcon} alt="Card Icon"></img>          
+                </a>                                               
+            </div>
         </div>
         </>
     );
